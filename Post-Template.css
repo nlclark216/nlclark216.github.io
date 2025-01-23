@@ -37,8 +37,9 @@
   margin-left: 0;
 }
 
-.u-text-2 {
+.u-text-2 h5 {
   width: fit-content;
+  margin: 0;
 }
 
 @media (max-width: 1199px) {
