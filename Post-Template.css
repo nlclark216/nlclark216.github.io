@@ -37,6 +37,10 @@
   margin-left: 0;
 }
 
+.u-text-2 {
+  width: fit-content;
+}
+
 @media (max-width: 1199px) {
   .u-section-1 .u-image-1 {
     margin-left: initial;
