@@ -1487,5 +1487,9 @@
 
 a:hover {
   cursor: pointer;
+}
+
+a h3:hover,
+a h6:hover {
   color: #C3D8F2;
 }
