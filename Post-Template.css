@@ -38,7 +38,7 @@
 }
 
 .u-text-2 h5 {
-  width: fit-content;
+  min-width: fit-content;
   margin: 0;
 }
 

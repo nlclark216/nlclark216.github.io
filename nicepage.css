@@ -7599,7 +7599,7 @@ ul.u-text li:last-child {
   display: table;
   align-self: flex-start;
   width: -webkit-fit-content;
-  width: fit-content;
+  min-width: fit-content;
   width: -moz-fit-content;
 }
 .u-text-default:empty {
@@ -7611,7 +7611,7 @@ ul.u-text li:last-child {
     display: table;
     align-self: flex-start;
     width: -webkit-fit-content;
-    width: fit-content;
+    min-width: fit-content;
     width: -moz-fit-content;
   }
   .u-text-default-xxl:empty {
@@ -7624,7 +7624,7 @@ ul.u-text li:last-child {
     display: table;
     align-self: flex-start;
     width: -webkit-fit-content;
-    width: fit-content;
+    min-width: fit-content;
     width: -moz-fit-content;
   }
   .u-xl-mode .u-text-default-xl:empty {
@@ -7637,7 +7637,7 @@ ul.u-text li:last-child {
     display: table;
     align-self: flex-start;
     width: -webkit-fit-content;
-    width: fit-content;
+    min-width: fit-content;
     width: -moz-fit-content;
   }
   .u-xxl-mode .u-text-default-xl:empty {
@@ -7650,7 +7650,7 @@ ul.u-text li:last-child {
     display: table;
     align-self: flex-start;
     width: -webkit-fit-content;
-    width: fit-content;
+    min-width: fit-content;
     width: -moz-fit-content;
   }
   .u-text-default-lg:empty {
@@ -7663,7 +7663,7 @@ ul.u-text li:last-child {
     display: table;
     align-self: flex-start;
     width: -webkit-fit-content;
-    width: fit-content;
+    min-width: fit-content;
     width: -moz-fit-content;
   }
   .u-text-default-md:empty {
@@ -7676,7 +7676,7 @@ ul.u-text li:last-child {
     display: table;
     align-self: flex-start;
     width: -webkit-fit-content;
-    width: fit-content;
+    min-width: fit-content;
     width: -moz-fit-content;
   }
   .u-text-default-sm:empty {
@@ -7689,7 +7689,7 @@ ul.u-text li:last-child {
     display: table;
     align-self: flex-start;
     width: -webkit-fit-content;
-    width: fit-content;
+    min-width: fit-content;
     width: -moz-fit-content;
   }
   .u-text-default-xs:empty {
@@ -13283,7 +13283,7 @@ section.u-image:not(.u-hover-box),
 .u-header.u-sticky,
 .u-overlap .u-header {
   z-index: 20;
-  padding-top: 0.1px;
+  /* padding-top: 0.1px; */
 }
 .u-overlap .u-header.u-sticky {
   position: fixed;
@@ -22249,7 +22249,7 @@ a.pswp__share--download:hover {
 .u-layout-horizontal .u-back-slide {
   display: inline-block;
   width: -webkit-fit-content;
-  width: fit-content;
+  min-width: fit-content;
 }
 .u-layout-horizontal .u-back-image {
   width: auto;
