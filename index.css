@@ -1484,3 +1484,7 @@
     width: 320px;
   }
 }
+
+a:hover {
+  cursor: pointer;
+}
