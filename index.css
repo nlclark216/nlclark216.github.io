@@ -1561,3 +1561,7 @@ a h6:hover {
   /* border: dashed red; */
   width: 100%;
 }
+
+.u-container-layout p {
+  color: lightgray;
+}
