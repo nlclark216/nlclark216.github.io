@@ -590,7 +590,7 @@ ol {
 /* Fade effect */
 .u-effect-fade .u-over-slide {
   opacity: 0;
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-fade:hover .u-over-slide,
 .u-effect-fade.u-effect-active .u-over-slide {
@@ -599,7 +599,7 @@ ol {
 /* Over effect */
 .u-effect-over-left .u-over-slide {
   transform: translate(-100%, 0);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-over-left:hover .u-over-slide,
 .u-effect-over-left.u-effect-active .u-over-slide {
@@ -607,7 +607,7 @@ ol {
 }
 .u-effect-over-right .u-over-slide {
   transform: translate(100%, 0);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-over-right:hover .u-over-slide,
 .u-effect-over-right.u-effect-active .u-over-slide {
@@ -615,7 +615,7 @@ ol {
 }
 .u-effect-over-top .u-over-slide {
   transform: translate(0, -100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-over-top:hover .u-over-slide,
 .u-effect-over-top.u-effect-active .u-over-slide {
@@ -623,7 +623,7 @@ ol {
 }
 .u-effect-over-bottom .u-over-slide {
   transform: translate(0, 100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-over-bottom:hover .u-over-slide,
 .u-effect-over-bottom.u-effect-active .u-over-slide {
@@ -631,7 +631,7 @@ ol {
 }
 .u-effect-over-topleft .u-over-slide {
   transform: translate(-100%, -100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-over-topleft:hover .u-over-slide,
 .u-effect-over-topleft.u-effect-active .u-over-slide {
@@ -639,7 +639,7 @@ ol {
 }
 .u-effect-over-topright .u-over-slide {
   transform: translate(100%, -100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-over-topright:hover .u-over-slide,
 .u-effect-over-topright.u-effect-active .u-over-slide {
@@ -647,7 +647,7 @@ ol {
 }
 .u-effect-over-bottomleft .u-over-slide {
   transform: translate(-100%, 100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-over-bottomleft:hover .u-over-slide,
 .u-effect-over-bottomleft.u-effect-active .u-over-slide {
@@ -655,7 +655,7 @@ ol {
 }
 .u-effect-over-bottomright .u-over-slide {
   transform: translate(100%, 100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-over-bottomright:hover .u-over-slide,
 .u-effect-over-bottomright.u-effect-active .u-over-slide {
@@ -664,14 +664,14 @@ ol {
 /* Slide effect */
 .u-effect-slide-left .u-over-slide {
   transform: translate(-100%, 0);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-left:hover .u-over-slide,
 .u-effect-slide-left.u-effect-active .u-over-slide {
   transform: translate(0, 0);
 }
 .u-effect-slide-left .u-back-slide {
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-left:hover .u-back-slide,
 .u-effect-slide-left.u-effect-active .u-back-slide {
@@ -679,14 +679,14 @@ ol {
 }
 .u-effect-slide-right .u-over-slide {
   transform: translate(100%, 0);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-right:hover .u-over-slide,
 .u-effect-slide-right.u-effect-active .u-over-slide {
   transform: translate(0, 0);
 }
 .u-effect-slide-right .u-back-slide {
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-right:hover .u-back-slide,
 .u-effect-slide-right.u-effect-active .u-back-slide {
@@ -694,14 +694,14 @@ ol {
 }
 .u-effect-slide-top .u-over-slide {
   transform: translate(0, -100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-top:hover .u-over-slide,
 .u-effect-slide-top.u-effect-active .u-over-slide {
   transform: translate(0, 0);
 }
 .u-effect-slide-top .u-back-slide {
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-top:hover .u-back-slide,
 .u-effect-slide-top.u-effect-active .u-back-slide {
@@ -709,14 +709,14 @@ ol {
 }
 .u-effect-slide-bottom .u-over-slide {
   transform: translate(0, 100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-bottom:hover .u-over-slide,
 .u-effect-slide-bottom.u-effect-active .u-over-slide {
   transform: translate(0, 0);
 }
 .u-effect-slide-bottom .u-back-slide {
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-bottom:hover .u-back-slide,
 .u-effect-slide-bottom.u-effect-active .u-back-slide {
@@ -724,14 +724,14 @@ ol {
 }
 .u-effect-slide-topleft .u-over-slide {
   transform: translate(-100%, -100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-topleft:hover .u-over-slide,
 .u-effect-slide-topleft.u-effect-active .u-over-slide {
   transform: translate(0, 0);
 }
 .u-effect-slide-topleft .u-back-slide {
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-topleft:hover .u-back-slide,
 .u-effect-slide-topleft.u-effect-active .u-back-slide {
@@ -739,14 +739,14 @@ ol {
 }
 .u-effect-slide-topright .u-over-slide {
   transform: translate(100%, -100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-topright:hover .u-over-slide,
 .u-effect-slide-topright.u-effect-active .u-over-slide {
   transform: translate(0, 0);
 }
 .u-effect-slide-topright .u-back-slide {
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-topright:hover .u-back-slide,
 .u-effect-slide-topright.u-effect-active .u-back-slide {
@@ -754,14 +754,14 @@ ol {
 }
 .u-effect-slide-bottomleft .u-over-slide {
   transform: translate(-100%, 100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-bottomleft:hover .u-over-slide,
 .u-effect-slide-bottomleft.u-effect-active .u-over-slide {
   transform: translate(0, 0);
 }
 .u-effect-slide-bottomleft .u-back-slide {
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-bottomleft:hover .u-back-slide,
 .u-effect-slide-bottomleft.u-effect-active .u-back-slide {
@@ -769,14 +769,14 @@ ol {
 }
 .u-effect-slide-bottomright .u-over-slide {
   transform: translate(100%, 100%);
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-bottomright:hover .u-over-slide,
 .u-effect-slide-bottomright.u-effect-active .u-over-slide {
   transform: translate(0, 0);
 }
 .u-effect-slide-bottomright .u-back-slide {
-  transition: all 500ms ease;
+  transition: all 200ms ease;
 }
 .u-effect-slide-bottomright:hover .u-back-slide,
 .u-effect-slide-bottomright.u-effect-active .u-back-slide {
@@ -791,13 +791,13 @@ ol {
   opacity: 0;
   transform: rotateY(180deg);
   transform-origin: center left;
-  transition: transform 500ms ease, transform-origin 500ms ease, opacity 0ms ease 500ms;
+  transition: transform 200ms ease, transform-origin 200ms ease, opacity 0ms ease 200ms;
 }
 .u-effect-flip-left:hover .u-over-slide,
 .u-effect-flip-left.u-effect-active .u-over-slide {
   opacity: 1;
   transform: rotateY(0deg);
-  transition: transform 500ms ease, transform-origin 500ms ease;
+  transition: transform 200ms ease, transform-origin 200ms ease;
 }
 .u-effect-flip-right,
 .u-effect-flip-right .u-slidesWrapper {
@@ -807,13 +807,13 @@ ol {
   opacity: 0;
   transform: rotateY(-180deg);
   transform-origin: center right;
-  transition: transform 500ms ease, transform-origin 500ms ease, opacity 0ms ease 500ms;
+  transition: transform 200ms ease, transform-origin 200ms ease, opacity 0ms ease 200ms;
 }
 .u-effect-flip-right:hover .u-over-slide,
 .u-effect-flip-right.u-effect-active .u-over-slide {
   opacity: 1;
   transform: rotateY(0deg);
-  transition: transform 500ms ease, transform-origin 500ms ease;
+  transition: transform 200ms ease, transform-origin 200ms ease;
 }
 .u-effect-flip-top,
 .u-effect-flip-top .u-slidesWrapper {
@@ -823,13 +823,13 @@ ol {
   opacity: 0;
   transform: rotateX(-180deg);
   transform-origin: center top;
-  transition: transform 500ms ease, transform-origin 500ms ease, opacity 0ms ease 500ms;
+  transition: transform 200ms ease, transform-origin 200ms ease, opacity 0ms ease 200ms;
 }
 .u-effect-flip-top:hover .u-over-slide,
 .u-effect-flip-top.u-effect-active .u-over-slide {
   opacity: 1;
   transform: rotateX(0deg);
-  transition: transform 500ms ease, transform-origin 500ms ease;
+  transition: transform 200ms ease, transform-origin 200ms ease;
 }
 .u-effect-flip-bottom,
 .u-effect-flip-bottom .u-slidesWrapper {
@@ -839,13 +839,13 @@ ol {
   opacity: 0;
   transform: rotateX(180deg);
   transform-origin: center bottom;
-  transition: transform 500ms ease, transform-origin 500ms ease, opacity 0ms ease 500ms;
+  transition: transform 200ms ease, transform-origin 200ms ease, opacity 0ms ease 200ms;
 }
 .u-effect-flip-bottom:hover .u-over-slide,
 .u-effect-flip-bottom.u-effect-active .u-over-slide {
   opacity: 1;
   transform: rotateX(0deg);
-  transition: transform 500ms ease, transform-origin 500ms ease;
+  transition: transform 200ms ease, transform-origin 200ms ease;
 }
 /* Wooble */
 .u-effect-wobble-left,
@@ -856,14 +856,14 @@ ol {
   opacity: 0;
   transform: rotateY(130deg);
   transform-origin: center left;
-  transition: transform 500ms ease, transform-origin 500ms ease, opacity 0ms ease 500ms;
+  transition: transform 200ms ease, transform-origin 200ms ease, opacity 0ms ease 200ms;
 }
 .u-effect-wobble-left:hover .u-over-slide,
 .u-effect-wobble-left.u-effect-active .u-over-slide {
   opacity: 1;
   transform: rotateY(0deg);
   transform-origin: center right;
-  transition: transform 500ms ease, transform-origin 500ms ease;
+  transition: transform 200ms ease, transform-origin 200ms ease;
 }
 .u-effect-wobble-right,
 .u-effect-wobble-right .u-slidesWrapper {
@@ -873,14 +873,14 @@ ol {
   opacity: 0;
   transform: rotateY(-130deg);
   transform-origin: center right;
-  transition: transform 500ms ease, transform-origin 500ms ease, opacity 0ms ease 500ms;
+  transition: transform 200ms ease, transform-origin 200ms ease, opacity 0ms ease 200ms;
 }
 .u-effect-wobble-right:hover .u-over-slide,
 .u-effect-wobble-right.u-effect-active .u-over-slide {
   opacity: 1;
   transform: rotateY(0deg);
   transform-origin: center left;
-  transition: transform 500ms ease, transform-origin 500ms ease;
+  transition: transform 200ms ease, transform-origin 200ms ease;
 }
 .u-effect-wobble-top,
 .u-effect-wobble-top .u-slidesWrapper {
@@ -890,14 +890,14 @@ ol {
   opacity: 0;
   transform: rotateX(-130deg);
   transform-origin: center top;
-  transition: transform 500ms ease, transform-origin 500ms ease, opacity 0ms ease 500ms;
+  transition: transform 200ms ease, transform-origin 200ms ease, opacity 0ms ease 200ms;
 }
 .u-effect-wobble-top:hover .u-over-slide,
 .u-effect-wobble-top.u-effect-active .u-over-slide {
   opacity: 1;
   transform: rotateX(0deg);
   transform-origin: center bottom;
-  transition: transform 500ms ease, transform-origin 500ms ease;
+  transition: transform 200ms ease, transform-origin 200ms ease;
 }
 .u-effect-wobble-bottom,
 .u-effect-wobble-bottom .u-slidesWrapper {
@@ -907,18 +907,18 @@ ol {
   opacity: 0;
   transform: rotateX(130deg);
   transform-origin: center bottom;
-  transition: transform 500ms ease, transform-origin 500ms ease, opacity 0ms ease 500ms;
+  transition: transform 200ms ease, transform-origin 200ms ease, opacity 0ms ease 200ms;
 }
 .u-effect-wobble-bottom:hover .u-over-slide,
 .u-effect-wobble-bottom.u-effect-active .u-over-slide {
   opacity: 1;
   transform: rotateX(0deg);
   transform-origin: center top;
-  transition: transform 500ms ease, transform-origin 500ms ease;
+  transition: transform 200ms ease, transform-origin 200ms ease;
 }
 /* Zoom */
 .u-effect-zoom .u-over-slide {
-  transition: transform 500ms ease;
+  transition: transform 200ms ease;
   transform: scale(0, 0);
 }
 .u-effect-zoom:hover .u-over-slide,
@@ -927,7 +927,7 @@ ol {
 }
 .u-effect-hover-zoom .u-back-slide,
 .u-effect-hover-zoom .u-background-effect-image {
-  transition: transform 500ms ease;
+  transition: transform 200ms ease;
   transform: scale(1);
 }
 .u-effect-hover-zoom:hover .u-back-slide,
@@ -938,7 +938,7 @@ ol {
 }
 .u-effect-hover-zoomOut .u-back-slide,
 .u-effect-hover-zoomOut .u-background-effect-image {
-  transition: transform 500ms ease;
+  transition: transform 200ms ease;
   transform: scale(var(--effect-scale));
 }
 .u-effect-hover-zoomOut:hover .u-back-slide,
@@ -952,7 +952,7 @@ ol {
 }
 .u-effect-hover-liftUp .u-back-slide,
 .u-effect-hover-liftUp .u-background-effect-image {
-  transition: transform 500ms ease;
+  transition: transform 200ms ease;
   transform: scale(1);
 }
 .u-effect-hover-liftUp:hover .u-back-slide,
@@ -966,7 +966,7 @@ ol {
   z-index: 2;
 }
 .u-effect-zoom-rotate .u-over-slide {
-  transition: transform 500ms ease;
+  transition: transform 200ms ease;
   transform: rotate(0deg) scale(0, 0);
 }
 .u-effect-zoom-rotate:hover .u-over-slide,
@@ -974,7 +974,7 @@ ol {
   transform: rotate(360deg) scale(1, 1);
 }
 .u-effect-zoom-rotateX .u-over-slide {
-  transition: transform 500ms ease;
+  transition: transform 200ms ease;
   transform: rotateX(0deg) scale(0, 0);
 }
 .u-effect-zoom-rotateX:hover .u-over-slide,
@@ -982,7 +982,7 @@ ol {
   transform: rotateX(360deg) scale(1, 1);
 }
 .u-effect-zoom-rotateY .u-over-slide {
-  transition: transform 500ms ease;
+  transition: transform 200ms ease;
   transform: rotateY(0deg) scale(0, 0);
 }
 .u-effect-zoom-rotateY:hover .u-over-slide,
@@ -991,7 +991,7 @@ ol {
 }
 .u-effect-hover-slide .u-back-image,
 .u-effect-hover-slide .u-background-effect-image {
-  transition-duration: 500ms;
+  transition-duration: 200ms;
   transition-timing-function: ease;
   transition-property: left, right, top, bottom;
 }
@@ -18034,7 +18034,7 @@ div.u-video,
 .u-enable-responsive.u-offcanvas .u-sidenav {
   height: 100vh;
   height: -webkit-fill-available;
-  transition: margin-left 500ms ease;
+  transition: margin-left 200ms ease;
   border-top: none;
   border-bottom: none;
   white-space: normal;
@@ -18087,19 +18087,19 @@ div.u-video,
 }
 .u-offcanvas-unshifted-left .u-body > *,
 .u-offcanvas-unshifted-left.u-body > * {
-  animation: menu-unshift-left 500ms normal forwards ease;
+  animation: menu-unshift-left 200ms normal forwards ease;
 }
 .u-offcanvas-opened.u-offcanvas-shifted-left .u-body > *,
 .u-offcanvas-opened.u-offcanvas-shifted-left.u-body > * {
-  animation: menu-shift-left 500ms normal forwards ease;
+  animation: menu-shift-left 200ms normal forwards ease;
 }
 .u-offcanvas-unshifted-right .u-body > *,
 .u-offcanvas-unshifted-right.u-body > * {
-  animation: menu-unshift-right 500ms normal forwards ease;
+  animation: menu-unshift-right 200ms normal forwards ease;
 }
 .u-offcanvas-opened.u-offcanvas-shifted-right .u-body > *,
 .u-offcanvas-opened.u-offcanvas-shifted-right.u-body > * {
-  animation: menu-shift-right 500ms normal forwards ease;
+  animation: menu-shift-right 200ms normal forwards ease;
 }
 .u-flip-horizontal {
   transform: scaleX(-1);
@@ -19892,7 +19892,7 @@ a.pswp__share--download:hover {
   opacity: 1;
 }
 .pswp--css_animation .pswp__preloader--active .pswp__preloader__icn {
-  animation: clockwise 500ms linear infinite;
+  animation: clockwise 200ms linear infinite;
 }
 .pswp--css_animation .pswp__preloader--active .pswp__preloader__donut {
   animation: donut-rotate 1000ms cubic-bezier(0.4, 0, 0.22, 1) infinite;
@@ -21457,7 +21457,7 @@ a.pswp__share--download:hover {
   animation-duration: 800ms;
 }
 .animated.faster {
-  animation-duration: 500ms;
+  animation-duration: 200ms;
 }
 .animated.slow {
   animation-duration: 2s;
@@ -24391,7 +24391,7 @@ span.product-remove:after {
   transition-duration: 9750ms;
 }
 .u-carousel-duration-9500 .u-carousel-inner .u-carousel-item {
-  transition-duration: 9500ms;
+  transition-duration: 9200ms;
 }
 .u-carousel-duration-9250 .u-carousel-inner .u-carousel-item {
   transition-duration: 9250ms;
@@ -24403,7 +24403,7 @@ span.product-remove:after {
   transition-duration: 8750ms;
 }
 .u-carousel-duration-8500 .u-carousel-inner .u-carousel-item {
-  transition-duration: 8500ms;
+  transition-duration: 8200ms;
 }
 .u-carousel-duration-8250 .u-carousel-inner .u-carousel-item {
   transition-duration: 8250ms;
@@ -24415,7 +24415,7 @@ span.product-remove:after {
   transition-duration: 7750ms;
 }
 .u-carousel-duration-7500 .u-carousel-inner .u-carousel-item {
-  transition-duration: 7500ms;
+  transition-duration: 7200ms;
 }
 .u-carousel-duration-7250 .u-carousel-inner .u-carousel-item {
   transition-duration: 7250ms;
@@ -24427,7 +24427,7 @@ span.product-remove:after {
   transition-duration: 6750ms;
 }
 .u-carousel-duration-6500 .u-carousel-inner .u-carousel-item {
-  transition-duration: 6500ms;
+  transition-duration: 6200ms;
 }
 .u-carousel-duration-6250 .u-carousel-inner .u-carousel-item {
   transition-duration: 6250ms;
@@ -24439,7 +24439,7 @@ span.product-remove:after {
   transition-duration: 5750ms;
 }
 .u-carousel-duration-5500 .u-carousel-inner .u-carousel-item {
-  transition-duration: 5500ms;
+  transition-duration: 5200ms;
 }
 .u-carousel-duration-5250 .u-carousel-inner .u-carousel-item {
   transition-duration: 5250ms;
@@ -24451,7 +24451,7 @@ span.product-remove:after {
   transition-duration: 4750ms;
 }
 .u-carousel-duration-4500 .u-carousel-inner .u-carousel-item {
-  transition-duration: 4500ms;
+  transition-duration: 4200ms;
 }
 .u-carousel-duration-4250 .u-carousel-inner .u-carousel-item {
   transition-duration: 4250ms;
@@ -24463,7 +24463,7 @@ span.product-remove:after {
   transition-duration: 3750ms;
 }
 .u-carousel-duration-3500 .u-carousel-inner .u-carousel-item {
-  transition-duration: 3500ms;
+  transition-duration: 3200ms;
 }
 .u-carousel-duration-3250 .u-carousel-inner .u-carousel-item {
   transition-duration: 3250ms;
@@ -24475,7 +24475,7 @@ span.product-remove:after {
   transition-duration: 2750ms;
 }
 .u-carousel-duration-2500 .u-carousel-inner .u-carousel-item {
-  transition-duration: 2500ms;
+  transition-duration: 2200ms;
 }
 .u-carousel-duration-2250 .u-carousel-inner .u-carousel-item {
   transition-duration: 2250ms;
@@ -24487,7 +24487,7 @@ span.product-remove:after {
   transition-duration: 1750ms;
 }
 .u-carousel-duration-1500 .u-carousel-inner .u-carousel-item {
-  transition-duration: 1500ms;
+  transition-duration: 1200ms;
 }
 .u-carousel-duration-1250 .u-carousel-inner .u-carousel-item {
   transition-duration: 1250ms;
@@ -24499,7 +24499,7 @@ span.product-remove:after {
   transition-duration: 750ms;
 }
 .u-carousel-duration-500 .u-carousel-inner .u-carousel-item {
-  transition-duration: 500ms;
+  transition-duration: 200ms;
 }
 .u-carousel-duration-250 .u-carousel-inner .u-carousel-item {
   transition-duration: 250ms;
